@@ -105,8 +105,6 @@ $./argod
 $./argo-cli mnsync status | grep IsSynced  
 Wait for **["IsSynced": true"]** (about 10 min.)  
   
-$sudo apt-get install -y git python-virtualenv  
-  
 # Go to Desktop wallet  
 1. Open the ArgoCoin Desktop Wallet.  
 2. Go to **[Settings]** -> **[Options]** ->**[Wallet]**  
@@ -117,17 +115,36 @@ Enable the "Enable coin control features" and "Show Masternodes Tab"
 5. **[Masternodes]** -> **[Update status]**  
   
 # Argo Sentinel Setting
-reference: https://github.com/argocoins/sentinel(https://github.com/argocoins/sentinel)
-
-1. Register on [DigitalOcean](https://m.do.co/c/08f956ba58f6). (or [vultr](https://www.vultr.com/?ref=7335357))
-2. sdjffsdajlk  
-3. asfdljsfdjkl  
-4. fsdjklfsdajlk  
-
-
+reference: https://github.com/argocoins/sentinel  
+  
+$su - argo  
+$sudo apt-get install -y git python-virtualenv  
+$cd ~/argo  
+$sudo apt-get update  
+$sudo apt-get -y install virtualenv  
+$./argo-cli getinfo | grep version  
+$git clone https://github.com/argocoins/sentinel.git && cd sentinel  
+$vi sentinel.conf  
+  
+argo_conf=/home/argo/.argocore/argo.conf  
+  
+**ADD** and **SAVE** sentinel.conf file  
+  
+$virtualenv ./venv  
+$./venv/bin/pip install -r requirements.txt  
+$./venv/bin/py.test ./test  
+$./venv/bin/python bin/sentinel.py  
+$chmod -R 755 database  
+$crontab -e  
+  
+* * * * * cd /home/smartadmin/argo/sentinel && ./venv/bin/python bin/sentinel.py >> sentinel.log 2>&1  
+  
+**ADD** and **SAVE** crontab file  
+  
 # Any donation is highly appreciated
 **AROG**: ARk1DQm5aiGuHkYf3yyYZruCYBz53dywo8  
 **BTC**: 3CcatZ6hAeBb9jMc4SV2eDEVpKLUSJfDoQ  
 **ETH**: 0x3cc9e0cdd69added605f8c9c980e35c2dedfb4f3  
 **LTC**: 3FF59A9xmfyhvmz5Zi2pUah9J7VVDVXyrL  
+  
 # Thank you.  
