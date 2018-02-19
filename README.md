@@ -135,9 +135,9 @@ $./venv/bin/pip install -r requirements.txt
 $./venv/bin/py.test ./test  
 $./venv/bin/python bin/sentinel.py  
 $chmod -R 755 database  
-$crontab -e  
+$crontab -e
   
-* * * * * cd /home/smartadmin/argo/sentinel && ./venv/bin/python bin/sentinel.py >> sentinel.log 2>&1  
+    * * * * * cd /home/YOURUSERNAME/sentinel && ./venv/bin/python bin/sentinel.py >> sentinel.log 2>&1 
   
 **ADD** and **SAVE** crontab file  
   
