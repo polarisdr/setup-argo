@@ -8,7 +8,7 @@ soon update.
 
 # Desktop wallet setting
 Download - [Wallets for Windows x32 x64](https://argo.cash/)  
-1. Open the ArgoCoin Desktop Wallet. Download  
+1. Open the ArgoCoin Desktop Wallet. 
 2. Go to **[Receive]** -> Label: **MN1** -> Amount: 10000 -> **[Request payment]**  
 3. Send ***10000*** Argo to **MN1**  
 4. Wait for 20 confirmations.  
@@ -28,7 +28,7 @@ output:
 ex) mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
 10. save **masternode.conf** file  
 
-# Multiple MN on one VPS:
+# MN on one VPS:
 1. Register on [DigitalOcean](https://m.do.co/c/08f956ba58f6). (or [vultr](https://www.vultr.com/?ref=7335357))
 2. sdjffsdajlk  
 3. asfdljsfdjkl  
