@@ -141,11 +141,11 @@ $virtualenv ./venv
 $./venv/bin/pip install -r requirements.txt  
 $./venv/bin/py.test ./test  
   
-    There should be NO ERROR.
+    There should be NO ERROR.
   
 $./venv/bin/python bin/sentinel.py  
   
-    There should be NO ERROR.
+    There should be NO ERROR.
   
 If you get ERROR, check $nano~/.argocore/argo.conf  
   
