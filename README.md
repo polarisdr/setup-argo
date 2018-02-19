@@ -1,5 +1,5 @@
 # ArgoCoin MasterNode Setup Guide
-VER - 1.0.0.1 - # 2018.02.19
+VER - 1.0.0.1      # 2018.02.19
 
 # Youtube video
 soon update.
@@ -10,7 +10,9 @@ soon update.
 3. sdkljfsadljkfsdjlk
 
 # Multiple MN on one VPS:
-1. 
+1. sdjffsdajlk
+2. asfdljsfdjkl
+3. fsdjklfsdajlk
 
 
 # Any donation is highly appreciated
