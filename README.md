@@ -106,8 +106,19 @@ $./argo-cli mnsync status | grep IsSynced
 Wait for **["IsSynced": true"]** (about 10 min.)  
   
 $sudo apt-get install -y git python-virtualenv  
+  
+# Go to Desktop wallet  
+1. Open the ArgoCoin Desktop Wallet.  
+2. Go to **[Settings]** -> **[Options]** ->**[Wallet]**  
+Enable the "Enable coin control features" and "Show Masternodes Tab"  
+  
+3. Restart Desktop wallet.  
+4. **[Masternodes]** -> **[Start all]**  
+5. **[Masternodes]** -> **[Update status]**  
+  
+# Argo Sentinel Setting
+reference: https://github.com/argocoins/sentinel(https://github.com/argocoins/sentinel)
 
-# Masternode Setting on VPS
 1. Register on [DigitalOcean](https://m.do.co/c/08f956ba58f6). (or [vultr](https://www.vultr.com/?ref=7335357))
 2. sdjffsdajlk  
 3. asfdljsfdjkl  
