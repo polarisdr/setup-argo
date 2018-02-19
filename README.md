@@ -6,24 +6,24 @@ soon update.
 
 # Desktop wallet setup
 1. Open the ArgoCoin Desktop Wallet.  
-2. Go to [Receive] -> Label: **MN1** -> Amount: 10000 -> [Request payment]  
-3. Send ***10000*** Argo to **MN1**.  
+2. Go to **[Receive]** -> Label: **MN1** -> Amount: 10000 -> **[Request payment]**  
+3. Send ***10000*** Argo to **MN1**  
 4. Wait for 20 confirmations.  
-5. Go to **Help -> "Debug Window - Console"**  
+5. Go to **[Help]** -> **[Debug Window - Console]**  
 6. Type the following command: **masternode outputs**  
-output:
+output:  
 { "c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c": "0" }  
 remember. "c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c" is your [tx_hash]  
 remember. "0" is your [tx_index]  
 7. Type the following command: **masternode genkey**  
 output:  
-65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW [masternodePrivkey]
-remember. 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW is your 
-8. Go to [Tools] -> [Open Masternode Configuration File]
+65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW [masternodePrivkey]  
+remember. 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW is your  
+8. Go to **[Tools] -> [Open Masternode Configuration File]**  
 9. edit **masternode.conf** file:  
 * **mn1 [vps_ip]:8989 [masternodePrivkey] [tx_hash] [tx_index]**  
 ex) mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
-10. save **masternode.conf** file
+10. save **masternode.conf** file  
 
 # Multiple MN on one VPS:
 1. sdjffsdajlk  
