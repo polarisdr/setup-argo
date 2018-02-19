@@ -38,6 +38,14 @@ Vultr: [www.vultr.com](https://www.vultr.com/?ref=7335357)
 4. Server Size: 1CPU - 2GB(2048MB) MEMORY  
 5. Create. (Deploy Now)  
 
+# Bitvise SSH Client Setting
+Download: [https://www.bitvise.com/ssh-client-download](https://www.bitvise.com/ssh-client-download)  
+  
+1. Dowanload [Bitvise SSH Client installer - version x.xx, size xx.x MB.]
+2. Server Host is Your **[vps_ip]**  
+3. Server Port is 22  
+4. Login.  
+
 # Masternode Setting on VPS
 1. Register on [DigitalOcean](https://m.do.co/c/08f956ba58f6). (or [vultr](https://www.vultr.com/?ref=7335357))
 2. sdjffsdajlk  
