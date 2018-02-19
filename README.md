@@ -85,6 +85,8 @@ masternode=1
 masternodeprivkey=**[masternodePrivkey]**  
   
 **SAVE** argo.conf file  
+  
+  
 $vi ~/.argocore/argo.conf  
 **[Important!!]** Please check the argo.conf file again!!  
   
@@ -94,6 +96,7 @@ $vi ~/.argocore/masternode.conf
 ex) mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
   
 **SAVE** masternode.conf file  
+  
   
 $mkdir argo && cd argo  
 $wget https://github.com/argocoins/argo/releases/download/v1.0.0/argo-ubuntu1604-v1.0.0.tar.gz  
