@@ -29,7 +29,6 @@ Download - [Wallets for Windows x32 x64](https://argo.cash/)
   **mn1 [vps_ip]:8989 [masternodePrivkey] [tx_hash] [tx_index]**  
   
     mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0  
-    
 10. save **masternode.conf** file  
 
 # Explanation of term
