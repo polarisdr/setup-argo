@@ -5,9 +5,18 @@ VER - 1.0.0.1      # 2018.02.19
 soon update.  
 
 # Desktop wallet setup
-1. sdfk;lfasd;jlk  
-2. dflkjfsadjlksdfajkl  
-3. sdkljfsadljkfsdjlk  
+1. Open the ArgoCoin Desktop Wallet.  
+2. Go to [Receive] -> Label: **MN1** -> Amount: 10000 -> [Request payment]  
+3. Send ***10000*** Argo to **MN1**.  
+4. Wait for 20 confirmations.  
+5. Go to **Help -> "Debug Window - Console"**  
+6. Type the following command: **masternode outputs**  
+7. Go to [Tools] -> [Open Masternode Configuration File]
+8. edit **masternode.conf** file:  
+* **mn1 [vps_ip]:8989 [masternodePrivkey] [tx_hash] [tx_index]**  
+ex) mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
+9. save **masternode.conf** file
+10. Click **Start All** 
 
 # Multiple MN on one VPS:
 1. sdjffsdajlk  
@@ -15,7 +24,7 @@ soon update.
 3. fsdjklfsdajlk  
 
 # Explanation of term
-mn1 127.0.0.2:19999 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+mn1 127.0.0.2:19999 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
 
 masternode outputs -> **[tx_hash] [tx_index]**  
 ex) c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0  
