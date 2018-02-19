@@ -24,7 +24,7 @@ output:
 **REMEMBER** 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW is your **[masternodePrivkey]**  
 8. Go to **[Tools] -> [Open Masternode Configuration File]**  
 9. edit **masternode.conf** file:  
-* **mn1 [vps_ip]:8989 [masternodePrivkey] [tx_hash] [tx_index]**  
+**mn1 [vps_ip]:8989 [masternodePrivkey] [tx_hash] [tx_index]**  
 ex) mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
 10. save **masternode.conf** file  
 
@@ -90,7 +90,7 @@ $vi ~/.argocore/argo.conf
 **[Important!!]** Please recheck argo.conf file!!  
 $vi ~/.argocore/masternode.conf  
   
-* **mn1 [vps_ip]:8989 [masternodePrivkey] [tx_hash] [tx_index]**  
+**mn1 [vps_ip]:8989 [masternodePrivkey] [tx_hash] [tx_index]**  
 ex) mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
 
 # Masternode Setting on VPS
