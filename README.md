@@ -2,7 +2,7 @@
 VER - 1.0.0.1      # 2018.02.19  
 
 I have done my best to guide the argo master node to work perfectly.  
-Especially I have tried to avoid the "watchdog_expired" error.
+Especially I have tried to avoid the **"WATCHDOG_EXPIRED"** error.
 
 # Youtube video
 soon update.  
