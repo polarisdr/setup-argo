@@ -1,5 +1,5 @@
 # ArgoCoin MasterNode Setup Guide
-VER - 1.0.0.1
+VER - 1.0.0.1 - # 2018.02.19
 
 # Youtube video
 soon update.
