@@ -78,15 +78,15 @@ $touch ~/.argocore/argo.conf
 $touch ~/.argocore/masternode.conf  
 $vi ~/.argocore/argo.conf  
   
-    rpcuser=argocoinuser  
-    rpcpassword=argocoinpass  
-    rpcport=8988  
-    rpcallowip=127.0.0.1  
-    listen=1  
-    server=1  
-    daemon=1  
-    masternode=1  
-    masternodeprivkey=**[masternodePrivkey]**  
+    rpcuser=argocoinuser
+    rpcpassword=argocoinpass
+    rpcport=8988
+    rpcallowip=127.0.0.1
+    listen=1
+    server=1
+    daemon=1
+    masternode=1
+    masternodeprivkey=**[masternodePrivkey]**
   
 **SAVE** argo.conf file  
   
@@ -109,7 +109,7 @@ $tar -xvf argo-ubuntu1604-v1.0.0.tar.gz
 $./argod  
 $./argo-cli mnsync status | grep IsSynced  
   
-    Wait for **["IsSynced": true"]** (about 10 min.)  
+    Wait for **["IsSynced": true"]** (about 10 min.)
   
 # Go to Desktop wallet  
 1. Open the ArgoCoin Desktop Wallet.  
@@ -132,7 +132,7 @@ $./argo-cli getinfo | grep version
 $git clone https://github.com/argocoins/sentinel.git && cd sentinel  
 $vi sentinel.conf  
   
-    argo_conf=/home/argo/.argocore/argo.conf  
+    argo_conf=/home/argo/.argocore/argo.conf
   
 **ADD** and **SAVE** sentinel.conf file  
   
@@ -143,7 +143,7 @@ $./venv/bin/python bin/sentinel.py
 $chmod -R 755 database  
 $crontab -e  
   
-    * * * * * cd /home/YOURUSERNAME/sentinel && ./venv/bin/python bin/sentinel.py >> sentinel.log 2>&1 
+    * * * * * cd /home/YOURUSERNAME/sentinel && ./venv/bin/python bin/sentinel.py >> sentinel.log 2>&1
   
 **ADD** and **SAVE** crontab file  
   
