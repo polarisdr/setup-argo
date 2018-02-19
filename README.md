@@ -74,15 +74,15 @@ $touch ~/.argocore/argo.conf
 $touch ~/.argocore/masternode.conf  
 $vi ~/.argocore/argo.conf  
   
-rpcuser=argocoinuser  
-rpcpassword=argocoinpass  
-rpcport=8988  
-rpcallowip=127.0.0.1  
-listen=1  
-server=1  
-daemon=1  
-masternode=1  
-masternodeprivkey=**[masternodePrivkey]**  
+    rpcuser=argocoinuser  
+    rpcpassword=argocoinpass  
+    rpcport=8988  
+    rpcallowip=127.0.0.1  
+    listen=1  
+    server=1  
+    daemon=1  
+    masternode=1  
+    masternodeprivkey=**[masternodePrivkey]**  
   
 **SAVE** argo.conf file  
   
