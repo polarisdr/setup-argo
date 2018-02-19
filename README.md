@@ -1,7 +1,7 @@
 # ArgoCoin MasterNode Setup Guide
 VER - 1.0.0.1      # 2018.02.19  
 
-I have done my best to guide the argo master node to work perfectly.
+I have done my best to guide the argo master node to work perfectly.  
 Especially I have tried to avoid the "watchdog_expired" error.
 
 # Youtube video
