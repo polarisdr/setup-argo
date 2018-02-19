@@ -1,6 +1,6 @@
 # ArgoCoin MasterNode Setup Guide
 
-I have done my best to guide the argo master node to work perfectly.  
+I have done my best to guide the argo masternode to work perfectly.  
 Especially I have tried to avoid the **"WATCHDOG_EXPIRED"** error.
 
 # Youtube video
