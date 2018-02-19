@@ -8,7 +8,7 @@ Especially I have tried to avoid the **"WATCHDOG_EXPIRED"** error.
 soon update.  
 
 # Desktop wallet setting
-1. Open the ArgoCoin Desktop Wallet.  
+1. Open the ArgoCoin Desktop Wallet. [download wallet](https://argo.cash/)  
 2. Go to **[Receive]** -> Label: **MN1** -> Amount: 10000 -> **[Request payment]**  
 3. Send ***10000*** Argo to **MN1**  
 4. Wait for 20 confirmations.  
