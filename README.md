@@ -88,6 +88,7 @@ $nano ~/.argocore/argo.conf
     masternode=1
     masternodeprivkey=[masternodePrivkey]
   
+[masternodePrivkey] is your masternodePrivkey.  
 **SAVE** argo.conf file  
   
   
