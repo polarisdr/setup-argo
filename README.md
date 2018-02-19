@@ -28,15 +28,15 @@ output:
 ex) mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
 10. save **masternode.conf** file  
 
-# VPS Setting
-VPS URL:  
+# VPS Setting 
 DigitalOcean: [www.digitalocean.com](https://m.do.co/c/08f956ba58f6)  
 Vultr: [www.vultr.com](https://www.vultr.com/?ref=7335357)  
   
-1. Login VPS. ( DigitalOcean or Vultr )
-2. sdjffsdajlk  
-3. asfdljsfdjkl  
-4. fsdjklfsdajlk  
+1. Login VPS. ( DigitalOcean or Vultr )  
+2. Create Droplets. (Deploy New Instance.)  
+3. Server Type: **Ubuntu 16.04 x64**  
+4. Server Size: 1CPU - 2GB(2048MB) MEMORY  
+5. Create. (Deploy Now)  
 
 # Masternode Setting on VPS
 1. Register on [DigitalOcean](https://m.do.co/c/08f956ba58f6). (or [vultr](https://www.vultr.com/?ref=7335357))
