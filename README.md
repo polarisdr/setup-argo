@@ -29,9 +29,10 @@ ex) mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f
 10. save **masternode.conf** file  
 
 # Multiple MN on one VPS:
-1. sdjffsdajlk  
-2. asfdljsfdjkl  
-3. fsdjklfsdajlk  
+1. Register on [DigitalOcean](https://m.do.co/c/08f956ba58f6). (or [vultr](https://www.vultr.com/?ref=7335357))
+2. sdjffsdajlk  
+3. asfdljsfdjkl  
+4. fsdjklfsdajlk  
 
 # Explanation of term
 mn1 127.0.0.2:19999 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
