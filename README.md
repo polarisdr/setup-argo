@@ -29,7 +29,10 @@ ex) mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f
 10. save **masternode.conf** file  
 
 # VPS Setting
-VPS URL - [DigitalOcean](https://m.do.co/c/08f956ba58f6) or [Vultr](https://www.vultr.com/?ref=7335357)
+VPS URL:
+[DigitalOcean - http://sdfaljkfs.com](https://m.do.co/c/08f956ba58f6)  
+[Vultr](https://www.vultr.com/?ref=7335357)  
+  
 1. Login VPS. ( DigitalOcean or Vultr )
 2. sdjffsdajlk  
 3. asfdljsfdjkl  
