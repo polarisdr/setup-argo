@@ -73,7 +73,6 @@ $mkdir ~/.argocore
 $touch ~/.argocore/argo.conf  
 $touch ~/.argocore/masternode.conf  
 $vi ~/.argocore/argo.conf  
-COPY AND PAST  
   
 rpcuser=argocoinuser  
 rpcpassword=argocoinpass  
@@ -85,14 +84,17 @@ daemon=1
 masternode=1  
 masternodeprivkey=**[masternodePrivkey]**  
   
-SAVE argo.conf file  
+**SAVE** argo.conf file  
 $vi ~/.argocore/argo.conf  
-**[Important!!]** Please recheck argo.conf file!!  
+**[Important!!]** Please check the argo.conf file again!!  
+  
 $vi ~/.argocore/masternode.conf  
   
 **mn1 [vps_ip]:8989 [masternodePrivkey] [tx_hash] [tx_index]**  
 ex) mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
-
+  
+**SAVE** argo.conf file  
+  
 # Masternode Setting on VPS
 1. Register on [DigitalOcean](https://m.do.co/c/08f956ba58f6). (or [vultr](https://www.vultr.com/?ref=7335357))
 2. sdjffsdajlk  
