@@ -76,7 +76,7 @@ $sudo apt-get install -y software-properties-common nano libboost-all-dev libzmq
 $mkdir ~/.argocore  
 $touch ~/.argocore/argo.conf  
 $touch ~/.argocore/masternode.conf  
-$vi ~/.argocore/argo.conf  
+$nano ~/.argocore/argo.conf  
   
     rpcuser=argocoinuser
     rpcpassword=argocoinpass
@@ -91,10 +91,10 @@ $vi ~/.argocore/argo.conf
 **SAVE** argo.conf file  
   
   
-$vi ~/.argocore/argo.conf  
+$nano ~/.argocore/argo.conf  
 **[Important!!]** Please check the argo.conf file again!!  
   
-$vi ~/.argocore/masternode.conf  
+$nano ~/.argocore/masternode.conf  
   
 **mn1 [vps_ip]:8989 [masternodePrivkey] [tx_hash] [tx_index]**  
   
@@ -130,7 +130,7 @@ $sudo apt-get update
 $sudo apt-get -y install virtualenv  
 $./argo-cli getinfo | grep version  
 $git clone https://github.com/argocoins/sentinel.git && cd sentinel  
-$vi sentinel.conf  
+$nano sentinel.conf  
   
     argo_conf=/home/argo/.argocore/argo.conf
   
