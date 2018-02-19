@@ -64,7 +64,7 @@ Download: [https://www.bitvise.com/ssh-client-download](https://www.bitvise.com/
 # Masternode Setting on VPS
 $adduser argo  
   
-    input your **PASSWORD**  
+    input your PASSWORD
   
 $gpasswd -a argo sudo  
 $su - argo  
@@ -86,7 +86,7 @@ $nano ~/.argocore/argo.conf
     server=1
     daemon=1
     masternode=1
-    masternodeprivkey=**[masternodePrivkey]**
+    masternodeprivkey=[masternodePrivkey]
   
 **SAVE** argo.conf file  
   
@@ -109,7 +109,7 @@ $tar -xvf argo-ubuntu1604-v1.0.0.tar.gz
 $./argod  
 $./argo-cli mnsync status | grep IsSynced  
   
-    Wait for **["IsSynced": true"]** (about 10 min.)
+    Wait for ["IsSynced": true"] (about 10 min.)
   
 # Go to Desktop wallet  
 1. Open the ArgoCoin Desktop Wallet.  
