@@ -28,6 +28,17 @@ output:
 ex) mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
 10. save **masternode.conf** file  
 
+# Explanation of term
+mn1 127.0.0.2:19999 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
+
+masternode outputs -> **[tx_hash] [tx_index]**  
+ex) c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0  
+masternode genkey -> **[masternodePrivkey]**  
+ex) 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW  
+UBuntu IP Address -> **[vps_ip]**  
+rpc port -> 8988 fixed  
+masternode port -> 8989 fixed.  
+
 # VPS Setting 
 DigitalOcean: [www.digitalocean.com](https://m.do.co/c/08f956ba58f6)  
 Vultr: [www.vultr.com](https://www.vultr.com/?ref=7335357)  
@@ -45,6 +56,42 @@ Download: [https://www.bitvise.com/ssh-client-download](https://www.bitvise.com/
 2. Server Host is Your **[vps_ip]**  
 3. Server Port is 22  
 4. Login.  
+5. "Host Key Verification" Message -> **Accecpt and Save**  
+
+# Masternode Setting on VPS
+$adduser argo  
+input your **password**  
+  
+$gpasswd -a argo sudo  
+$su - argo  
+$sudo add-apt-repository -y ppa:bitcoin/bitcoin  
+$sudo apt-get update  
+$sudo apt-get upgrade  
+$sudo apt-get dist-upgrade  
+$sudo apt-get install -y software-properties-common nano libboost-all-dev libzmq3-dev libminiupnpc-dev libssl-dev libevent-dev libdb4.8-dev libdb4.8++-dev  
+$mkdir ~/.argocore  
+$touch ~/.argocore/argo.conf  
+$touch ~/.argocore/masternode.conf  
+$vi ~/.argocore/argo.conf  
+COPY AND PAST  
+  
+rpcuser=argocoinuser  
+rpcpassword=argocoinpass  
+rpcport=8988  
+rpcallowip=127.0.0.1  
+listen=1  
+server=1  
+daemon=1  
+masternode=1  
+masternodeprivkey=**[masternodePrivkey]**  
+  
+SAVE argo.conf file  
+$vi ~/.argocore/argo.conf  
+**[Important!!]** Please recheck argo.conf file!!  
+$vi ~/.argocore/masternode.conf  
+  
+* **mn1 [vps_ip]:8989 [masternodePrivkey] [tx_hash] [tx_index]**  
+ex) mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
 
 # Masternode Setting on VPS
 1. Register on [DigitalOcean](https://m.do.co/c/08f956ba58f6). (or [vultr](https://www.vultr.com/?ref=7335357))
@@ -52,16 +99,6 @@ Download: [https://www.bitvise.com/ssh-client-download](https://www.bitvise.com/
 3. asfdljsfdjkl  
 4. fsdjklfsdajlk  
 
-# Explanation of term
-mn1 127.0.0.2:19999 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
-
-masternode outputs -> **[tx_hash] [tx_index]**  
-ex) c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0  
-masternode genkey -> **[masternodePrivkey]**  
-ex) 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW  
-UBuntu IP Address -> **[vps_ip]**  
-rpc port -> 8988 fixed  
-masternode port -> 8989 fixed.  
 
 # Any donation is highly appreciated
 **AROG**: ARk1DQm5aiGuHkYf3yyYZruCYBz53dywo8  
