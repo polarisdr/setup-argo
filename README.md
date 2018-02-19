@@ -143,7 +143,7 @@ $./venv/bin/python bin/sentinel.py
 $chmod -R 755 database  
 $crontab -e  
   
-    * * * * * cd /home/YOURUSERNAME/sentinel && ./venv/bin/python bin/sentinel.py >> sentinel.log 2>&1
+    * * * * * cd /home/argo/argo/sentinel && ./venv/bin/python bin/sentinel.py >> sentinel.log 2>&1
   
 **ADD** and **SAVE** crontab file  
   
