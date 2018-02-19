@@ -1,10 +1,13 @@
 # ArgoCoin MasterNode Setup Guide
 VER - 1.0.0.1      # 2018.02.19  
 
+I have done my best to guide the argo master node to work perfectly.
+Especially I have tried to avoid the "watchdog_expired" error.
+
 # Youtube video
 soon update.  
 
-# Desktop wallet setup
+# Desktop wallet setting
 1. Open the ArgoCoin Desktop Wallet.  
 2. Go to **[Receive]** -> Label: **MN1** -> Amount: 10000 -> **[Request payment]**  
 3. Send ***10000*** Argo to **MN1**  
@@ -17,8 +20,8 @@ remember. "c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c" is 
 remember. "0" is your [tx_index]  
 7. Type the following command: **masternode genkey**  
 output:  
-65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW [masternodePrivkey]  
-remember. 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW is your  
+65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW  
+remember. 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW is your [masternodePrivkey]  
 8. Go to **[Tools] -> [Open Masternode Configuration File]**  
 9. edit **masternode.conf** file:  
 * **mn1 [vps_ip]:8989 [masternodePrivkey] [tx_hash] [tx_index]**  
