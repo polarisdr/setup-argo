@@ -1,5 +1,4 @@
 # ArgoCoin MasterNode Setup Guide
-VER - 1.0.0.1      # 2018.02.19  
 
 I have done my best to guide the argo master node to work perfectly.  
 Especially I have tried to avoid the **"WATCHDOG_EXPIRED"** error.
@@ -8,7 +7,8 @@ Especially I have tried to avoid the **"WATCHDOG_EXPIRED"** error.
 soon update.  
 
 # Desktop wallet setting
-1. Open the ArgoCoin Desktop Wallet. [download wallet](https://argo.cash/)  
+Download - [Wallets for Windows x32 x64](https://argo.cash/)  
+1. Open the ArgoCoin Desktop Wallet. Download  
 2. Go to **[Receive]** -> Label: **MN1** -> Amount: 10000 -> **[Request payment]**  
 3. Send ***10000*** Argo to **MN1**  
 4. Wait for 20 confirmations.  
