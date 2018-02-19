@@ -15,15 +15,15 @@ Download - [Wallets for Windows x32 x64](https://argo.cash/)
 5. Go to **[Help]** -> **[Debug Window - Console]**  
 6. Type the following command: **masternode outputs**  
   
-    { "c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c": "0" }  
-    
+    { "c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c": "0" }      
 **REMEMBER** "c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c" is your **[tx_hash]**  
 **REMEMBER** "0" is your **[tx_index]**  
+  
 7. Type the following command: **masternode genkey**  
   
-    65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW  
-    
+    65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW      
 **REMEMBER** 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW is your **[masternodePrivkey]**  
+  
 8. Go to **[Tools] -> [Open Masternode Configuration File]**  
 9. edit **masternode.conf** file:  
 
