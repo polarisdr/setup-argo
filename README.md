@@ -9,7 +9,7 @@ soon update.
 # Desktop wallet setting
 Download - [Wallets for Windows x32 x64](https://argo.cash/)  
 1. Open the ArgoCoin Desktop Wallet. (your local Windows wallet.)  
-2. Go to **[Receive]** -> Label: **MN1** -> Amount: 10000 -> **[Request payment]**  
+2. Go to **[Receive]** -> Label: **MN1** -> Amount: 10,000 -> **[Request payment]**  
 3. Send exactly **10,000** Argocoins to **MN1** address  
 4. Wait for 15 confirmations.  
 5. Go to **[Help]** -> **[Debug Window - Console]**  
