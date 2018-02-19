@@ -15,26 +15,27 @@ Download - [Wallets for Windows x32 x64](https://argo.cash/)
 5. Go to **[Help]** -> **[Debug Window - Console]**  
 6. Type the following command: **masternode outputs**  
 output:  
-{ "c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c": "0" }  
+    { "c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c": "0" }  
 **REMEMBER** "c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c" is your **[tx_hash]**  
 **REMEMBER** "0" is your **[tx_index]**  
 7. Type the following command: **masternode genkey**  
 output:  
-65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW  
+    65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW  
 **REMEMBER** 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW is your **[masternodePrivkey]**  
 8. Go to **[Tools] -> [Open Masternode Configuration File]**  
 9. edit **masternode.conf** file:  
 **mn1 [vps_ip]:8989 [masternodePrivkey] [tx_hash] [tx_index]**  
-ex) mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
+ex)  
+    mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
 10. save **masternode.conf** file  
 
 # Explanation of term
 mn1 127.0.0.2:19999 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
 
 masternode outputs -> **[tx_hash] [tx_index]**  
-ex) c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0  
+    c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0  
 masternode genkey -> **[masternodePrivkey]**  
-ex) 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW  
+    65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW  
 UBuntu IP Address -> **[vps_ip]**  
 rpc port -> 8988 fixed  
 masternode port -> 8989 fixed.  
@@ -60,7 +61,7 @@ Download: [https://www.bitvise.com/ssh-client-download](https://www.bitvise.com/
 
 # Masternode Setting on VPS
 $adduser argo  
-input your **password**  
+    input your **PASSWORD**  
   
 $gpasswd -a argo sudo  
 $su - argo  
@@ -93,7 +94,7 @@ $vi ~/.argocore/argo.conf
 $vi ~/.argocore/masternode.conf  
   
 **mn1 [vps_ip]:8989 [masternodePrivkey] [tx_hash] [tx_index]**  
-ex) mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
+    mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
   
 **SAVE** masternode.conf file  
   
@@ -103,7 +104,7 @@ $wget https://github.com/argocoins/argo/releases/download/v1.0.0/argo-ubuntu1604
 $tar -xvf argo-ubuntu1604-v1.0.0.tar.gz  
 $./argod  
 $./argo-cli mnsync status | grep IsSynced  
-Wait for **["IsSynced": true"]** (about 10 min.)  
+    Wait for **["IsSynced": true"]** (about 10 min.)  
   
 # Go to Desktop wallet  
 1. Open the ArgoCoin Desktop Wallet.  
@@ -126,7 +127,7 @@ $./argo-cli getinfo | grep version
 $git clone https://github.com/argocoins/sentinel.git && cd sentinel  
 $vi sentinel.conf  
   
-argo_conf=/home/argo/.argocore/argo.conf  
+    argo_conf=/home/argo/.argocore/argo.conf  
   
 **ADD** and **SAVE** sentinel.conf file  
   
