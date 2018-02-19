@@ -96,8 +96,8 @@ ex) mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f
 **SAVE** masternode.conf file  
   
 $mkdir argo && cd argo  
-$wget https://github.com/argocoins/argo/releases/download/v1.0.0/argo-ubuntu1604-v1.0.0.tar.gz
-tar -xvf argo-ubuntu1604-v1.0.0.tar.gz  
+$wget https://github.com/argocoins/argo/releases/download/v1.0.0/argo-ubuntu1604-v1.0.0.tar.gz  
+$tar -xvf argo-ubuntu1604-v1.0.0.tar.gz  
 $./argod  
 $./argo-cli mnsync status | grep IsSynced  
 Wait for **["IsSynced": true"]** (about 10 min.)  
