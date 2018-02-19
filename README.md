@@ -93,8 +93,17 @@ $vi ~/.argocore/masternode.conf
 **mn1 [vps_ip]:8989 [masternodePrivkey] [tx_hash] [tx_index]**  
 ex) mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
   
-**SAVE** argo.conf file  
+**SAVE** masternode.conf file  
   
+$mkdir argo && cd argo  
+$wget https://github.com/argocoins/argo/releases/download/v1.0.0/argo-ubuntu1604-v1.0.0.tar.gz
+tar -xvf argo-ubuntu1604-v1.0.0.tar.gz  
+$./argod  
+$./argo-cli mnsync status | grep IsSynced  
+Wait for **["IsSynced": true"]** (about 10 min.)  
+  
+$sudo apt-get install -y git python-virtualenv  
+
 # Masternode Setting on VPS
 1. Register on [DigitalOcean](https://m.do.co/c/08f956ba58f6). (or [vultr](https://www.vultr.com/?ref=7335357))
 2. sdjffsdajlk  
