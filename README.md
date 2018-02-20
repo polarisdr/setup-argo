@@ -73,9 +73,12 @@ $sudo ufw allow 8988/tcp
 $sudo ufw allow 8989/tcp  
 $sudo ufw default allow outgoing  
 $sudo ufw enable  
+  
+    y
+  
 $sudo ufw status  
   
-$apt-get install fail2ban  
+$sudo apt-get install fail2ban  
 $systemctl enable fail2ban  
 $systemctl start fail2ban  
   
