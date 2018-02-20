@@ -177,8 +177,6 @@ $crontab -e
   
 **ADD** and **SAVE** crontab file  
   
-# FAQ  
-  
 # Any donation is highly appreciated
 
 
