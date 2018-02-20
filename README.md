@@ -156,6 +156,8 @@ $crontab -e
   
 **ADD** and **SAVE** crontab file  
   
+# FAQ  
+  
 # Any donation is highly appreciated
 
 
@@ -167,5 +169,4 @@ $crontab -e
 | LTC 			 | 3FF59A9xmfyhvmz5Zi2pUah9J7VVDVXyrL |
 
 	
-
 # Thank you.  
