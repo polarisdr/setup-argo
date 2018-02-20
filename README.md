@@ -58,8 +58,9 @@ Download: [https://www.bitvise.com/ssh-client-download](https://www.bitvise.com/
 1. Dowanload [Bitvise SSH Client installer - version x.xx, size xx.x MB.]
 2. Server Host is Your **[vps_ip]**  
 3. Server Port is 22  
-4. Login.  
-5. "Host Key Verification" Message -> **Accecpt and Save**  
+4. Username is **root**
+5. Login.
+6. "Host Key Verification" Message -> **Accecpt and Save**  
 
 # Masternode Setting on VPS
 $adduser argo  
