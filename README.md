@@ -67,7 +67,7 @@ $sudo apt-get update
 $sudo apt-get upgrade  
   
 $sudo apt-get install ufw  
-$sudo ufw allow ssh/tcp  
+$sudo ufw allow ssh  
 $sudo ufw limit ssh/tcp  
 $sudo ufw allow 8988/tcp  
 $sudo ufw allow 8989/tcp  
