@@ -61,7 +61,24 @@ Download: [https://www.bitvise.com/ssh-client-download](https://www.bitvise.com/
 4. Username is **root**
 5. Login.
 6. "Host Key Verification" Message -> **Accecpt and Save**  
-
+  
+# Enable Firewall
+$sudo apt-get update  
+$sudo apt-get upgrade  
+  
+$sudo apt-get install ufw  
+$sudo ufw allow ssh/tcp  
+$sudo ufw limit ssh/tcp  
+$sudo ufw allow 8988/tcp  
+$sudo ufw allow 8989/tcp  
+$sudo ufw default allow outgoing  
+$sudo ufw enable  
+$sudo ufw status  
+  
+$apt-get install fail2ban  
+$systemctl enable fail2ban  
+$systemctl start fail2ban  
+  
 # Masternode Setting on VPS
 $adduser argo  
   
