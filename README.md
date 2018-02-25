@@ -134,18 +134,19 @@ $tar -xvf argo-ubuntu1604-v1.0.0.tar.gz
 $./argod  
 $./argo-cli mnsync status | grep IsSynced  
   
-    Wait for ["IsSynced": true"] (about 10 min.)
+    Wait for ["IsSynced": true]. (about 10 min.)
   
 If "IsSynced" is "false", please don't do anything and just wait for ["IsSynced":true].  
   
-[" IsSynced":true "] takes more than 10 minutes.  
+[" IsSynced":true] -> take more than 10 minutes.  
   
 # Go to Desktop wallet  
 1. Open the ArgoCoin Desktop Wallet.  
 2. Go to **[Settings]** -> **[Options]** ->**[Wallet]**  
 Enable the "Enable coin control features" and "Show Masternodes Tab"  
 3. Go to [Tools] -> [Open Masternode Configuration File]  
-4. Recheck **masternode.conf** file:  
+4. Recheck **masternode.conf** file:  
+  
   **mn1 [vps_ip]:8989 [masternodePrivkey] [tx_hash] [tx_index]**  
 ex)  
     mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
