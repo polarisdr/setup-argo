@@ -185,8 +185,8 @@ Please wait about 20 minutes.
 [Masternodes]-[Status]-[ENABLED] ==> You will get ARGO coins after about 10 hours.  
   
   
-If you continue to occurs WATCHDOG_EXPIRED error, check the following:  
   
+If you continue to occurs WATCHDOG_EXPIRED error, check the following:  
 $su - argo  
 $cd ~/argo  
 $./argo-cli mnsync status | grep IsSynced  
