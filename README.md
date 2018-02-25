@@ -170,7 +170,7 @@ $./venv/bin/python bin/sentinel.py
   
     There should be NO ERROR.
   
-If you get ERROR, check $nano~/.argocore/argo.conf  
+If you get ERROR, check $nano ~/.argocore/argo.conf  
   
 $chmod -R 755 database  
 $crontab -e  
