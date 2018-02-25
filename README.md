@@ -66,6 +66,8 @@ Download: [https://www.bitvise.com/ssh-client-download](https://www.bitvise.com/
 $sudo apt-get update  
 $sudo apt-get upgrade  
   
+    y
+    
 $sudo apt-get install ufw  
 $sudo ufw allow ssh  
 $sudo ufw limit ssh/tcp  
