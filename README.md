@@ -4,7 +4,7 @@ I have done my best to guide the argo masternode to work perfectly.
 Especially I have tried to avoid the **"WATCHDOG_EXPIRED"** error.
 
 # Youtube video
-soon update.  
+https://youtu.be/lh1lI5VENKg  
 
 # Desktop wallet setting
 Download - [Wallets for Windows x32 x64](https://argo.cash/)  
