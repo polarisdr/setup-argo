@@ -146,6 +146,7 @@ Enable the "Enable coin control features" and "Show Masternodes Tab"
   
 3. Restart Desktop wallet.  
 4. **[Masternodes]** -> **[Start all]**  
+**Warning** - Be sure to click [Start all] only when "IsSynced" is "true".  
 5. **[Masternodes]** -> **[Update status]**  
   
 # Argo Sentinel Setting
