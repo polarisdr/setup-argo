@@ -164,7 +164,8 @@ $cd ~/argo
 $sudo apt-get update  
 $sudo apt-get -y install virtualenv  
 $./argo-cli getinfo | grep version  
-$git clone https://github.com/argocoins/sentinel.git && cd sentinel  
+$git clone https://github.com/argocoins/sentinel.git  
+$cd ~/argo/sentinel  
 $nano sentinel.conf  
   
     argo_conf=/home/argo/.argocore/argo.conf
