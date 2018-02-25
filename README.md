@@ -197,7 +197,7 @@ $./argo-cli masternode status | grep status
   
     "status": "Masternode successfully started"
   
-$cd ~/argo/sentinel
+$cd ~/argo/sentinel  
 $./venv/bin/py.test ./test  
   
     ===== 23 passed in 0.25 seconds =====
