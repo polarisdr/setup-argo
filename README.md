@@ -135,6 +135,10 @@ $./argo-cli mnsync status | grep IsSynced
   
     Wait for ["IsSynced": true"] (about 10 min.)
   
+If "IsSynced" is "false", please don't do anything and just wait for ["IsSynced":true].  
+  
+[" IsSynced":true "] takes more than 10 minutes.  
+  
 # Go to Desktop wallet  
 1. Open the ArgoCoin Desktop Wallet.  
 2. Go to **[Settings]** -> **[Options]** ->**[Wallet]**  
