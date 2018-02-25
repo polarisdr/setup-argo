@@ -97,6 +97,7 @@ $sudo apt-get update
 $sudo apt-get upgrade  
 $sudo apt-get dist-upgrade  
 $sudo apt-get install -y software-properties-common nano libboost-all-dev libzmq3-dev libminiupnpc-dev libssl-dev libevent-dev libdb4.8-dev libdb4.8++-dev  
+$sudo apt-get install git  
 $mkdir ~/.argocore  
 $touch ~/.argocore/argo.conf  
 $touch ~/.argocore/masternode.conf  
