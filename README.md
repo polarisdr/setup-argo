@@ -179,6 +179,16 @@ $crontab -e
   
 **ADD** and **SAVE** crontab file  
   
+Please wait about 20 minutes.  
+  
+# Restart Desktop wallet  
+1. [Masternodes] -> [Status] -> ENABLED = You will get ARGO coins after about 10 hours.  
+2. If you continue to occurs WATCHDOG_EXPIRED error, check the following:  
+*1
+*2
+*3
+*4
+  
 # Any donation is highly appreciated
 
 
