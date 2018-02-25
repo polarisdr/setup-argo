@@ -186,22 +186,23 @@ Please wait about 20 minutes.
   
   
 If you continue to occurs WATCHDOG_EXPIRED error, check the following:  
-1.$su - argo  
-2.$cd ~/argo  
-3.$./argo-cli mnsync status | grep IsSynced  
+  
+$su - argo  
+$cd ~/argo  
+$./argo-cli mnsync status | grep IsSynced  
   
     "IsSynced": true,
   
-4.$./argo-cli masternode status | grep status  
+$./argo-cli masternode status | grep status  
   
     "status": "Masternode successfully started"
   
-5.$cd ~/argo/sentinel
-6.$./venv/bin/py.test ./test  
+$cd ~/argo/sentinel
+$./venv/bin/py.test ./test  
   
     ===== 23 passed in 0.25 seconds =====
   
-7.$./venv/bin/python bin/sentinel.py  
+$./venv/bin/python bin/sentinel.py  
   
     There should be NO ERROR.
   
