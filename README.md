@@ -218,6 +218,10 @@ $./venv/bin/python bin/sentinel.py
   
     There should be NO ERROR.
   
+  
+If there are *no errors*, please wait about 20 minutes.  
+After 20 minutes, "WATCHDOG_EXPIRED" will change to "ENABLED".  
+  
 # Any donation is highly appreciated
 
 
