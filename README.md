@@ -182,24 +182,24 @@ $crontab -e
 Please wait about 20 minutes.  
   
 # Restart Desktop wallet  
-1. [Masternodes]-[Status]-[ENABLED] ==> You will get ARGO coins after about 10 hours.  
-2. If you continue to occurs WATCHDOG_EXPIRED error, check the following:  
-*$su - argo  
-*$cd ~/argo  
-*./argo-cli mnsync status | grep IsSynced  
+[Masternodes]-[Status]-[ENABLED] ==> You will get ARGO coins after about 10 hours.  
+If you continue to occurs WATCHDOG_EXPIRED error, check the following:  
+1.$su - argo  
+2.$cd ~/argo  
+3.$./argo-cli mnsync status | grep IsSynced  
   
     "IsSynced": true,
   
-*./argo-cli masternode status | grep status  
+4.$./argo-cli masternode status | grep status  
   
     "status": "Masternode successfully started"
   
-*cd ~/argo/sentinel
-*./venv/bin/py.test ./test  
+5.$cd ~/argo/sentinel
+6.$./venv/bin/py.test ./test  
   
     ===== 23 passed in 0.25 seconds =====
   
-*./venv/bin/python bin/sentinel.py  
+7.$./venv/bin/python bin/sentinel.py  
   
     There should be NO ERROR.
   
