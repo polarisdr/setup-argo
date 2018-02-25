@@ -29,6 +29,7 @@ Download - [Wallets for Windows x32 x64](https://argo.cash/)
   **mn1 [vps_ip]:8989 [masternodePrivkey] [tx_hash] [tx_index]**  
 ex)  
     mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
+    
 10. save **masternode.conf** file  
 
 # Explanation of term
@@ -143,11 +144,16 @@ If "IsSynced" is "false", please don't do anything and just wait for ["IsSynced"
 1. Open the ArgoCoin Desktop Wallet.  
 2. Go to **[Settings]** -> **[Options]** ->**[Wallet]**  
 Enable the "Enable coin control features" and "Show Masternodes Tab"  
-  
-3. Restart Desktop wallet.  
-4. **[Masternodes]** -> **[Start all]**  
+3. Go to [Tools] -> [Open Masternode Configuration File]  
+4. Recheck **masternode.conf** file:  
+  **mn1 [vps_ip]:8989 [masternodePrivkey] [tx_hash] [tx_index]**  
+ex)  
+    mn1 197.4.0.21:8989 65WitritDkin0000002V0000000000b65SsCPk3eeMaaL1KHinW c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c 0
+    
+5. Restart Desktop wallet.  
+6. **[Masternodes]** -> **[Start all]**  
 **Warning** - Be sure to click [Start all] only when "IsSynced" is "true".  
-5. **[Masternodes]** -> **[Update status]**  
+7. **[Masternodes]** -> **[Update status]**  
   
 # Argo Sentinel Setting
 reference: https://github.com/argocoins/sentinel  
