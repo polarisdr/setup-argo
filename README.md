@@ -183,6 +183,8 @@ Please wait about 20 minutes.
   
 # Restart Desktop wallet  
 [Masternodes]-[Status]-[ENABLED] ==> You will get ARGO coins after about 10 hours.  
+  
+  
 If you continue to occurs WATCHDOG_EXPIRED error, check the following:  
 1.$su - argo  
 2.$cd ~/argo  
