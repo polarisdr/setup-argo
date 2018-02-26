@@ -12,7 +12,7 @@ Download - [Wallets for Windows x32 x64](https://argo.cash/)
 2. Go to **[Receive]** -> Label: **MN1** -> Amount: 10,000 -> **[Request payment]**  
 3. Send exactly **10,000** Argocoins to **MN1** address  
 4. Wait for 15 confirmations.  
-5. Go to **[Help]** -> **[Debug Window - Console]**  
+5. Go to **[Tools]** -> **[Debug Window - Console]**  
 6. Type the following command: **masternode outputs**  
   
     { "c84f87000000000083000000658810b92e0d032zz3c840000f9e18714456a67c": "0" }      
